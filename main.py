@@ -29,4 +29,4 @@ if __name__ == "__main__":
     user_service = injector.get(UserService)
 
     user = user_service.get_user(1)
-    print(user)
+    print(user) # {'id': 1, 'name': 'Alice'}
